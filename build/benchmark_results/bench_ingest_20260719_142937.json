@@ -1,0 +1,88 @@
+{
+  "context": {
+    "date": "2026-07-19T14:29:37+00:00",
+    "host_name": "ASUS",
+    "executable": "/mnt/c/Users/manas/kronos-db/bench/../build/bench_ingest",
+    "num_cpus": 16,
+    "mhz_per_cpu": 3110,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 49152,
+        "num_sharing": 2
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 1310720,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 18874368,
+        "num_sharing": 16
+      }
+    ],
+    "load_avg": [0.119141,0.106445,0.0400391],
+    "library_version": "v1.8.5",
+    "library_build_type": "release",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "BM_AppendSingleThread/iterations:1000000",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_AppendSingleThread/iterations:1000000",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1000000,
+      "real_time": 7.7583104500001809e-01,
+      "cpu_time": 7.7545872100000013e-01,
+      "time_unit": "us",
+      "bytes_per_second": 8.3821354044711277e+07,
+      "items_per_second": 1.2895592929955581e+06
+    },
+    {
+      "name": "BM_AppendNoWAL/iterations:1000000",
+      "family_index": 1,
+      "per_family_instance_index": 0,
+      "run_name": "BM_AppendNoWAL/iterations:1000000",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1000000,
+      "real_time": 2.4728513099995553e-01,
+      "cpu_time": 2.4707942400000005e-01,
+      "time_unit": "us",
+      "items_per_second": 4.0472815737177688e+06
+    },
+    {
+      "name": "BM_AppendMultipleSymbols/iterations:1000000",
+      "family_index": 2,
+      "per_family_instance_index": 0,
+      "run_name": "BM_AppendMultipleSymbols/iterations:1000000",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1000000,
+      "real_time": 4.9261903000001439e-01,
+      "cpu_time": 4.8390316600000000e-01,
+      "time_unit": "us",
+      "items_per_second": 2.0665291534794383e+06
+    }
+  ]
+}

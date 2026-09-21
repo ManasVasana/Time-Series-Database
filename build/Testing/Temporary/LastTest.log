@@ -1,0 +1,1785 @@
+Start testing: Jul 15 19:12 UTC
+----------------------------------------------------------
+1/66 Testing: KeyEncoding.RoundTrip
+1/66 Test: KeyEncoding.RoundTrip
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=KeyEncoding.RoundTrip" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"KeyEncoding.RoundTrip" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = KeyEncoding.RoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KeyEncoding
+[ RUN      ] KeyEncoding.RoundTrip
+[       OK ] KeyEncoding.RoundTrip (0 ms)
+[----------] 1 test from KeyEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"KeyEncoding.RoundTrip" end time: Jul 15 19:12 UTC
+"KeyEncoding.RoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/66 Testing: KeyEncoding.LexicographicOrder
+2/66 Test: KeyEncoding.LexicographicOrder
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=KeyEncoding.LexicographicOrder" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"KeyEncoding.LexicographicOrder" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = KeyEncoding.LexicographicOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KeyEncoding
+[ RUN      ] KeyEncoding.LexicographicOrder
+[       OK ] KeyEncoding.LexicographicOrder (0 ms)
+[----------] 1 test from KeyEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"KeyEncoding.LexicographicOrder" end time: Jul 15 19:12 UTC
+"KeyEncoding.LexicographicOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/66 Testing: EventEncoding.RoundTrip
+3/66 Test: EventEncoding.RoundTrip
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=EventEncoding.RoundTrip" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"EventEncoding.RoundTrip" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EventEncoding.RoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventEncoding
+[ RUN      ] EventEncoding.RoundTrip
+[       OK ] EventEncoding.RoundTrip (1 ms)
+[----------] 1 test from EventEncoding (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"EventEncoding.RoundTrip" end time: Jul 15 19:12 UTC
+"EventEncoding.RoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/66 Testing: EventEncoding.AllEventTypes
+4/66 Test: EventEncoding.AllEventTypes
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=EventEncoding.AllEventTypes" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"EventEncoding.AllEventTypes" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EventEncoding.AllEventTypes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventEncoding
+[ RUN      ] EventEncoding.AllEventTypes
+[       OK ] EventEncoding.AllEventTypes (1 ms)
+[----------] 1 test from EventEncoding (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"EventEncoding.AllEventTypes" end time: Jul 15 19:12 UTC
+"EventEncoding.AllEventTypes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/66 Testing: EventEncoding.ParseEventType
+5/66 Test: EventEncoding.ParseEventType
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=EventEncoding.ParseEventType" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"EventEncoding.ParseEventType" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EventEncoding.ParseEventType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventEncoding
+[ RUN      ] EventEncoding.ParseEventType
+[       OK ] EventEncoding.ParseEventType (3 ms)
+[----------] 1 test from EventEncoding (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"EventEncoding.ParseEventType" end time: Jul 15 19:12 UTC
+"EventEncoding.ParseEventType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/66 Testing: EventEncoding.EventTypeName
+6/66 Test: EventEncoding.EventTypeName
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=EventEncoding.EventTypeName" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"EventEncoding.EventTypeName" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EventEncoding.EventTypeName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventEncoding
+[ RUN      ] EventEncoding.EventTypeName
+[       OK ] EventEncoding.EventTypeName (1 ms)
+[----------] 1 test from EventEncoding (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"EventEncoding.EventTypeName" end time: Jul 15 19:12 UTC
+"EventEncoding.EventTypeName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/66 Testing: EventEncoding.SignedFields
+7/66 Test: EventEncoding.SignedFields
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=EventEncoding.SignedFields" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"EventEncoding.SignedFields" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EventEncoding.SignedFields
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EventEncoding
+[ RUN      ] EventEncoding.SignedFields
+[       OK ] EventEncoding.SignedFields (1 ms)
+[----------] 1 test from EventEncoding (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"EventEncoding.SignedFields" end time: Jul 15 19:12 UTC
+"EventEncoding.SignedFields" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/66 Testing: WalTest.AppendAndRecover
+8/66 Test: WalTest.AppendAndRecover
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalTest.AppendAndRecover" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalTest.AppendAndRecover" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.AppendAndRecover
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.AppendAndRecover
+[       OK ] WalTest.AppendAndRecover (11 ms)
+[----------] 1 test from WalTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.AppendAndRecover" end time: Jul 15 19:12 UTC
+"WalTest.AppendAndRecover" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/66 Testing: WalTest.RecoveryIntoMemtable
+9/66 Test: WalTest.RecoveryIntoMemtable
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalTest.RecoveryIntoMemtable" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalTest.RecoveryIntoMemtable" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.RecoveryIntoMemtable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.RecoveryIntoMemtable
+[       OK ] WalTest.RecoveryIntoMemtable (6 ms)
+[----------] 1 test from WalTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.RecoveryIntoMemtable" end time: Jul 15 19:12 UTC
+"WalTest.RecoveryIntoMemtable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/66 Testing: WalTest.EmptyDirRecovery
+10/66 Test: WalTest.EmptyDirRecovery
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalTest.EmptyDirRecovery" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalTest.EmptyDirRecovery" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.EmptyDirRecovery
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.EmptyDirRecovery
+[       OK ] WalTest.EmptyDirRecovery (1 ms)
+[----------] 1 test from WalTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.EmptyDirRecovery" end time: Jul 15 19:12 UTC
+"WalTest.EmptyDirRecovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/66 Testing: WalTest.SegmentRotation
+11/66 Test: WalTest.SegmentRotation
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalTest.SegmentRotation" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalTest.SegmentRotation" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.SegmentRotation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.SegmentRotation
+[       OK ] WalTest.SegmentRotation (7 ms)
+[----------] 1 test from WalTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.SegmentRotation" end time: Jul 15 19:12 UTC
+"WalTest.SegmentRotation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/66 Testing: WalTest.RecoveryPreservesOrder
+12/66 Test: WalTest.RecoveryPreservesOrder
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalTest.RecoveryPreservesOrder" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalTest.RecoveryPreservesOrder" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.RecoveryPreservesOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.RecoveryPreservesOrder
+[       OK ] WalTest.RecoveryPreservesOrder (7 ms)
+[----------] 1 test from WalTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.RecoveryPreservesOrder" end time: Jul 15 19:12 UTC
+"WalTest.RecoveryPreservesOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/66 Testing: WalCorruptionTest.TruncatedTailRecovery
+13/66 Test: WalCorruptionTest.TruncatedTailRecovery
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalCorruptionTest.TruncatedTailRecovery" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalCorruptionTest.TruncatedTailRecovery" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalCorruptionTest.TruncatedTailRecovery
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalCorruptionTest
+[ RUN      ] WalCorruptionTest.TruncatedTailRecovery
+[       OK ] WalCorruptionTest.TruncatedTailRecovery (5 ms)
+[----------] 1 test from WalCorruptionTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalCorruptionTest.TruncatedTailRecovery" end time: Jul 15 19:12 UTC
+"WalCorruptionTest.TruncatedTailRecovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/66 Testing: WalCorruptionTest.ChecksumFailureStopsReplay
+14/66 Test: WalCorruptionTest.ChecksumFailureStopsReplay
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalCorruptionTest.ChecksumFailureStopsReplay" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalCorruptionTest.ChecksumFailureStopsReplay" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalCorruptionTest.ChecksumFailureStopsReplay
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalCorruptionTest
+[ RUN      ] WalCorruptionTest.ChecksumFailureStopsReplay
+[       OK ] WalCorruptionTest.ChecksumFailureStopsReplay (4 ms)
+[----------] 1 test from WalCorruptionTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalCorruptionTest.ChecksumFailureStopsReplay" end time: Jul 15 19:12 UTC
+"WalCorruptionTest.ChecksumFailureStopsReplay" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/66 Testing: WalCorruptionTest.BadMagicDetected
+15/66 Test: WalCorruptionTest.BadMagicDetected
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalCorruptionTest.BadMagicDetected" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalCorruptionTest.BadMagicDetected" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalCorruptionTest.BadMagicDetected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalCorruptionTest
+[ RUN      ] WalCorruptionTest.BadMagicDetected
+[       OK ] WalCorruptionTest.BadMagicDetected (3 ms)
+[----------] 1 test from WalCorruptionTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalCorruptionTest.BadMagicDetected" end time: Jul 15 19:12 UTC
+"WalCorruptionTest.BadMagicDetected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/66 Testing: WalCorruptionTest.PartialRecordAtEnd
+16/66 Test: WalCorruptionTest.PartialRecordAtEnd
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=WalCorruptionTest.PartialRecordAtEnd" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"WalCorruptionTest.PartialRecordAtEnd" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalCorruptionTest.PartialRecordAtEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalCorruptionTest
+[ RUN      ] WalCorruptionTest.PartialRecordAtEnd
+[       OK ] WalCorruptionTest.PartialRecordAtEnd (3 ms)
+[----------] 1 test from WalCorruptionTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WalCorruptionTest.PartialRecordAtEnd" end time: Jul 15 19:12 UTC
+"WalCorruptionTest.PartialRecordAtEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/66 Testing: SSTableTest.WriteReadRoundTrip
+17/66 Test: SSTableTest.WriteReadRoundTrip
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SSTableTest.WriteReadRoundTrip" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SSTableTest.WriteReadRoundTrip" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SSTableTest.WriteReadRoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SSTableTest
+[ RUN      ] SSTableTest.WriteReadRoundTrip
+[       OK ] SSTableTest.WriteReadRoundTrip (5 ms)
+[----------] 1 test from SSTableTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SSTableTest.WriteReadRoundTrip" end time: Jul 15 19:12 UTC
+"SSTableTest.WriteReadRoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/66 Testing: SSTableTest.MayContainSkipsWrongSymbol
+18/66 Test: SSTableTest.MayContainSkipsWrongSymbol
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SSTableTest.MayContainSkipsWrongSymbol" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SSTableTest.MayContainSkipsWrongSymbol" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SSTableTest.MayContainSkipsWrongSymbol
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SSTableTest
+[ RUN      ] SSTableTest.MayContainSkipsWrongSymbol
+[       OK ] SSTableTest.MayContainSkipsWrongSymbol (129 ms)
+[----------] 1 test from SSTableTest (129 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (129 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"SSTableTest.MayContainSkipsWrongSymbol" end time: Jul 15 19:12 UTC
+"SSTableTest.MayContainSkipsWrongSymbol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/66 Testing: SSTableTest.RangeScanRespectsLimits
+19/66 Test: SSTableTest.RangeScanRespectsLimits
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SSTableTest.RangeScanRespectsLimits" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SSTableTest.RangeScanRespectsLimits" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SSTableTest.RangeScanRespectsLimits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SSTableTest
+[ RUN      ] SSTableTest.RangeScanRespectsLimits
+[       OK ] SSTableTest.RangeScanRespectsLimits (4 ms)
+[----------] 1 test from SSTableTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SSTableTest.RangeScanRespectsLimits" end time: Jul 15 19:12 UTC
+"SSTableTest.RangeScanRespectsLimits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/66 Testing: SSTableTest.FlushFromMemtable
+20/66 Test: SSTableTest.FlushFromMemtable
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SSTableTest.FlushFromMemtable" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SSTableTest.FlushFromMemtable" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SSTableTest.FlushFromMemtable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SSTableTest
+[ RUN      ] SSTableTest.FlushFromMemtable
+[       OK ] SSTableTest.FlushFromMemtable (4 ms)
+[----------] 1 test from SSTableTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SSTableTest.FlushFromMemtable" end time: Jul 15 19:12 UTC
+"SSTableTest.FlushFromMemtable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/66 Testing: SSTableTest.EarlyTermination
+21/66 Test: SSTableTest.EarlyTermination
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SSTableTest.EarlyTermination" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SSTableTest.EarlyTermination" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SSTableTest.EarlyTermination
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SSTableTest
+[ RUN      ] SSTableTest.EarlyTermination
+[       OK ] SSTableTest.EarlyTermination (5 ms)
+[----------] 1 test from SSTableTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SSTableTest.EarlyTermination" end time: Jul 15 19:12 UTC
+"SSTableTest.EarlyTermination" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/66 Testing: ScanTest.BasicQueryFromMemtable
+22/66 Test: ScanTest.BasicQueryFromMemtable
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=ScanTest.BasicQueryFromMemtable" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"ScanTest.BasicQueryFromMemtable" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ScanTest.BasicQueryFromMemtable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanTest
+[ RUN      ] ScanTest.BasicQueryFromMemtable
+[       OK ] ScanTest.BasicQueryFromMemtable (8 ms)
+[----------] 1 test from ScanTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ScanTest.BasicQueryFromMemtable" end time: Jul 15 19:12 UTC
+"ScanTest.BasicQueryFromMemtable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/66 Testing: ScanTest.QueryNonExistentSymbolReturnsEmpty
+23/66 Test: ScanTest.QueryNonExistentSymbolReturnsEmpty
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=ScanTest.QueryNonExistentSymbolReturnsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"ScanTest.QueryNonExistentSymbolReturnsEmpty" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ScanTest.QueryNonExistentSymbolReturnsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanTest
+[ RUN      ] ScanTest.QueryNonExistentSymbolReturnsEmpty
+[       OK ] ScanTest.QueryNonExistentSymbolReturnsEmpty (7 ms)
+[----------] 1 test from ScanTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ScanTest.QueryNonExistentSymbolReturnsEmpty" end time: Jul 15 19:12 UTC
+"ScanTest.QueryNonExistentSymbolReturnsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/66 Testing: ScanTest.LimitRespected
+24/66 Test: ScanTest.LimitRespected
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=ScanTest.LimitRespected" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"ScanTest.LimitRespected" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ScanTest.LimitRespected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanTest
+[ RUN      ] ScanTest.LimitRespected
+[       OK ] ScanTest.LimitRespected (7 ms)
+[----------] 1 test from ScanTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ScanTest.LimitRespected" end time: Jul 15 19:12 UTC
+"ScanTest.LimitRespected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/66 Testing: ScanTest.EventTypeFilter
+25/66 Test: ScanTest.EventTypeFilter
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=ScanTest.EventTypeFilter" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"ScanTest.EventTypeFilter" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ScanTest.EventTypeFilter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanTest
+[ RUN      ] ScanTest.EventTypeFilter
+[       OK ] ScanTest.EventTypeFilter (8 ms)
+[----------] 1 test from ScanTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ScanTest.EventTypeFilter" end time: Jul 15 19:12 UTC
+"ScanTest.EventTypeFilter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/66 Testing: ScanTest.QueryAfterFlushToSSTable
+26/66 Test: ScanTest.QueryAfterFlushToSSTable
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=ScanTest.QueryAfterFlushToSSTable" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"ScanTest.QueryAfterFlushToSSTable" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ScanTest.QueryAfterFlushToSSTable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ScanTest
+[ RUN      ] ScanTest.QueryAfterFlushToSSTable
+[       OK ] ScanTest.QueryAfterFlushToSSTable (47 ms)
+[----------] 1 test from ScanTest (47 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (47 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"ScanTest.QueryAfterFlushToSSTable" end time: Jul 15 19:12 UTC
+"ScanTest.QueryAfterFlushToSSTable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/66 Testing: CompactionTest.MergePreservesSortedOrder
+27/66 Test: CompactionTest.MergePreservesSortedOrder
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=CompactionTest.MergePreservesSortedOrder" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"CompactionTest.MergePreservesSortedOrder" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CompactionTest.MergePreservesSortedOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CompactionTest
+[ RUN      ] CompactionTest.MergePreservesSortedOrder
+[       OK ] CompactionTest.MergePreservesSortedOrder (13 ms)
+[----------] 1 test from CompactionTest (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"CompactionTest.MergePreservesSortedOrder" end time: Jul 15 19:12 UTC
+"CompactionTest.MergePreservesSortedOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/66 Testing: CompactionTest.CompactionStatsPopulated
+28/66 Test: CompactionTest.CompactionStatsPopulated
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=CompactionTest.CompactionStatsPopulated" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"CompactionTest.CompactionStatsPopulated" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CompactionTest.CompactionStatsPopulated
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CompactionTest
+[ RUN      ] CompactionTest.CompactionStatsPopulated
+[       OK ] CompactionTest.CompactionStatsPopulated (8 ms)
+[----------] 1 test from CompactionTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CompactionTest.CompactionStatsPopulated" end time: Jul 15 19:12 UTC
+"CompactionTest.CompactionStatsPopulated" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/66 Testing: CompactionTest.CompactionScoreL0
+29/66 Test: CompactionTest.CompactionScoreL0
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=CompactionTest.CompactionScoreL0" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"CompactionTest.CompactionScoreL0" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CompactionTest.CompactionScoreL0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CompactionTest
+[ RUN      ] CompactionTest.CompactionScoreL0
+[       OK ] CompactionTest.CompactionScoreL0 (0 ms)
+[----------] 1 test from CompactionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CompactionTest.CompactionScoreL0" end time: Jul 15 19:12 UTC
+"CompactionTest.CompactionScoreL0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/66 Testing: CompactionTest.CompactionScoreL1
+30/66 Test: CompactionTest.CompactionScoreL1
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=CompactionTest.CompactionScoreL1" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"CompactionTest.CompactionScoreL1" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CompactionTest.CompactionScoreL1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CompactionTest
+[ RUN      ] CompactionTest.CompactionScoreL1
+[       OK ] CompactionTest.CompactionScoreL1 (0 ms)
+[----------] 1 test from CompactionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CompactionTest.CompactionScoreL1" end time: Jul 15 19:12 UTC
+"CompactionTest.CompactionScoreL1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/66 Testing: CompactionTest.MultipleInputFilesMerged
+31/66 Test: CompactionTest.MultipleInputFilesMerged
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=CompactionTest.MultipleInputFilesMerged" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"CompactionTest.MultipleInputFilesMerged" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CompactionTest.MultipleInputFilesMerged
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CompactionTest
+[ RUN      ] CompactionTest.MultipleInputFilesMerged
+[       OK ] CompactionTest.MultipleInputFilesMerged (28 ms)
+[----------] 1 test from CompactionTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"CompactionTest.MultipleInputFilesMerged" end time: Jul 15 19:12 UTC
+"CompactionTest.MultipleInputFilesMerged" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/66 Testing: SyntheticTest.GeneratesEventsViaRealDB
+32/66 Test: SyntheticTest.GeneratesEventsViaRealDB
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SyntheticTest.GeneratesEventsViaRealDB" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SyntheticTest.GeneratesEventsViaRealDB" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SyntheticTest.GeneratesEventsViaRealDB
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SyntheticTest
+[ RUN      ] SyntheticTest.GeneratesEventsViaRealDB
+[       OK ] SyntheticTest.GeneratesEventsViaRealDB (547 ms)
+[----------] 1 test from SyntheticTest (547 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (548 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"SyntheticTest.GeneratesEventsViaRealDB" end time: Jul 15 19:12 UTC
+"SyntheticTest.GeneratesEventsViaRealDB" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/66 Testing: SyntheticTest.StartStopIdempotent
+33/66 Test: SyntheticTest.StartStopIdempotent
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SyntheticTest.StartStopIdempotent" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SyntheticTest.StartStopIdempotent" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SyntheticTest.StartStopIdempotent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SyntheticTest
+[ RUN      ] SyntheticTest.StartStopIdempotent
+[       OK ] SyntheticTest.StartStopIdempotent (12 ms)
+[----------] 1 test from SyntheticTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (13 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SyntheticTest.StartStopIdempotent" end time: Jul 15 19:12 UTC
+"SyntheticTest.StartStopIdempotent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/66 Testing: SyntheticTest.ValidEventMixProduced
+34/66 Test: SyntheticTest.ValidEventMixProduced
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SyntheticTest.ValidEventMixProduced" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SyntheticTest.ValidEventMixProduced" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SyntheticTest.ValidEventMixProduced
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SyntheticTest
+[ RUN      ] SyntheticTest.ValidEventMixProduced
+[       OK ] SyntheticTest.ValidEventMixProduced (335 ms)
+[----------] 1 test from SyntheticTest (335 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (336 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"SyntheticTest.ValidEventMixProduced" end time: Jul 15 19:12 UTC
+"SyntheticTest.ValidEventMixProduced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/66 Testing: SyntheticTest.StatusReporting
+35/66 Test: SyntheticTest.StatusReporting
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SyntheticTest.StatusReporting" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SyntheticTest.StatusReporting" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SyntheticTest.StatusReporting
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SyntheticTest
+[ RUN      ] SyntheticTest.StatusReporting
+[       OK ] SyntheticTest.StatusReporting (5 ms)
+[----------] 1 test from SyntheticTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SyntheticTest.StatusReporting" end time: Jul 15 19:12 UTC
+"SyntheticTest.StatusReporting" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/66 Testing: QueryStatsTest.StatsFieldsPopulated
+36/66 Test: QueryStatsTest.StatsFieldsPopulated
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=QueryStatsTest.StatsFieldsPopulated" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"QueryStatsTest.StatsFieldsPopulated" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueryStatsTest.StatsFieldsPopulated
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueryStatsTest
+[ RUN      ] QueryStatsTest.StatsFieldsPopulated
+[       OK ] QueryStatsTest.StatsFieldsPopulated (10 ms)
+[----------] 1 test from QueryStatsTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"QueryStatsTest.StatsFieldsPopulated" end time: Jul 15 19:12 UTC
+"QueryStatsTest.StatsFieldsPopulated" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/66 Testing: QueryStatsTest.PlanningUsNonZeroForValidQuery
+37/66 Test: QueryStatsTest.PlanningUsNonZeroForValidQuery
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=QueryStatsTest.PlanningUsNonZeroForValidQuery" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"QueryStatsTest.PlanningUsNonZeroForValidQuery" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueryStatsTest.PlanningUsNonZeroForValidQuery
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueryStatsTest
+[ RUN      ] QueryStatsTest.PlanningUsNonZeroForValidQuery
+[       OK ] QueryStatsTest.PlanningUsNonZeroForValidQuery (8 ms)
+[----------] 1 test from QueryStatsTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"QueryStatsTest.PlanningUsNonZeroForValidQuery" end time: Jul 15 19:12 UTC
+"QueryStatsTest.PlanningUsNonZeroForValidQuery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/66 Testing: QueryStatsTest.QueryUnknownSymbolReturnsEmpty
+38/66 Test: QueryStatsTest.QueryUnknownSymbolReturnsEmpty
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=QueryStatsTest.QueryUnknownSymbolReturnsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"QueryStatsTest.QueryUnknownSymbolReturnsEmpty" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueryStatsTest.QueryUnknownSymbolReturnsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueryStatsTest
+[ RUN      ] QueryStatsTest.QueryUnknownSymbolReturnsEmpty
+[       OK ] QueryStatsTest.QueryUnknownSymbolReturnsEmpty (8 ms)
+[----------] 1 test from QueryStatsTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"QueryStatsTest.QueryUnknownSymbolReturnsEmpty" end time: Jul 15 19:12 UTC
+"QueryStatsTest.QueryUnknownSymbolReturnsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/66 Testing: QueryStatsTest.RowsReturnedRespectLimit
+39/66 Test: QueryStatsTest.RowsReturnedRespectLimit
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=QueryStatsTest.RowsReturnedRespectLimit" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"QueryStatsTest.RowsReturnedRespectLimit" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueryStatsTest.RowsReturnedRespectLimit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueryStatsTest
+[ RUN      ] QueryStatsTest.RowsReturnedRespectLimit
+[       OK ] QueryStatsTest.RowsReturnedRespectLimit (7 ms)
+[----------] 1 test from QueryStatsTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"QueryStatsTest.RowsReturnedRespectLimit" end time: Jul 15 19:12 UTC
+"QueryStatsTest.RowsReturnedRespectLimit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/66 Testing: QueryStatsTest.MetricsRecordsQueryLatency
+40/66 Test: QueryStatsTest.MetricsRecordsQueryLatency
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=QueryStatsTest.MetricsRecordsQueryLatency" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"QueryStatsTest.MetricsRecordsQueryLatency" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueryStatsTest.MetricsRecordsQueryLatency
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueryStatsTest
+[ RUN      ] QueryStatsTest.MetricsRecordsQueryLatency
+[       OK ] QueryStatsTest.MetricsRecordsQueryLatency (8 ms)
+[----------] 1 test from QueryStatsTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"QueryStatsTest.MetricsRecordsQueryLatency" end time: Jul 15 19:12 UTC
+"QueryStatsTest.MetricsRecordsQueryLatency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/66 Testing: BloomFilterTest.ContainsAddedKeys
+41/66 Test: BloomFilterTest.ContainsAddedKeys
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BloomFilterTest.ContainsAddedKeys" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BloomFilterTest.ContainsAddedKeys" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BloomFilterTest.ContainsAddedKeys
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BloomFilterTest
+[ RUN      ] BloomFilterTest.ContainsAddedKeys
+[       OK ] BloomFilterTest.ContainsAddedKeys (0 ms)
+[----------] 1 test from BloomFilterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BloomFilterTest.ContainsAddedKeys" end time: Jul 15 19:12 UTC
+"BloomFilterTest.ContainsAddedKeys" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/66 Testing: BloomFilterTest.EmptyFilterAlwaysReturnsTrue
+42/66 Test: BloomFilterTest.EmptyFilterAlwaysReturnsTrue
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BloomFilterTest.EmptyFilterAlwaysReturnsTrue" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BloomFilterTest.EmptyFilterAlwaysReturnsTrue" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BloomFilterTest.EmptyFilterAlwaysReturnsTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BloomFilterTest
+[ RUN      ] BloomFilterTest.EmptyFilterAlwaysReturnsTrue
+[       OK ] BloomFilterTest.EmptyFilterAlwaysReturnsTrue (0 ms)
+[----------] 1 test from BloomFilterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BloomFilterTest.EmptyFilterAlwaysReturnsTrue" end time: Jul 15 19:12 UTC
+"BloomFilterTest.EmptyFilterAlwaysReturnsTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/66 Testing: BloomFilterTest.FalsePositiveRateApproximate
+43/66 Test: BloomFilterTest.FalsePositiveRateApproximate
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BloomFilterTest.FalsePositiveRateApproximate" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BloomFilterTest.FalsePositiveRateApproximate" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BloomFilterTest.FalsePositiveRateApproximate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BloomFilterTest
+[ RUN      ] BloomFilterTest.FalsePositiveRateApproximate
+[       OK ] BloomFilterTest.FalsePositiveRateApproximate (3 ms)
+[----------] 1 test from BloomFilterTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BloomFilterTest.FalsePositiveRateApproximate" end time: Jul 15 19:12 UTC
+"BloomFilterTest.FalsePositiveRateApproximate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/66 Testing: BloomFilterTest.EncodeDecodeRoundTrip
+44/66 Test: BloomFilterTest.EncodeDecodeRoundTrip
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BloomFilterTest.EncodeDecodeRoundTrip" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BloomFilterTest.EncodeDecodeRoundTrip" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BloomFilterTest.EncodeDecodeRoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BloomFilterTest
+[ RUN      ] BloomFilterTest.EncodeDecodeRoundTrip
+[       OK ] BloomFilterTest.EncodeDecodeRoundTrip (0 ms)
+[----------] 1 test from BloomFilterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BloomFilterTest.EncodeDecodeRoundTrip" end time: Jul 15 19:12 UTC
+"BloomFilterTest.EncodeDecodeRoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/66 Testing: BloomFilterTest.LargeFilterCorrectness
+45/66 Test: BloomFilterTest.LargeFilterCorrectness
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BloomFilterTest.LargeFilterCorrectness" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BloomFilterTest.LargeFilterCorrectness" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BloomFilterTest.LargeFilterCorrectness
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BloomFilterTest
+[ RUN      ] BloomFilterTest.LargeFilterCorrectness
+[       OK ] BloomFilterTest.LargeFilterCorrectness (8 ms)
+[----------] 1 test from BloomFilterTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BloomFilterTest.LargeFilterCorrectness" end time: Jul 15 19:12 UTC
+"BloomFilterTest.LargeFilterCorrectness" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/66 Testing: BloomFilterTest.SerializedSizeReasonable
+46/66 Test: BloomFilterTest.SerializedSizeReasonable
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BloomFilterTest.SerializedSizeReasonable" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BloomFilterTest.SerializedSizeReasonable" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BloomFilterTest.SerializedSizeReasonable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BloomFilterTest
+[ RUN      ] BloomFilterTest.SerializedSizeReasonable
+[       OK ] BloomFilterTest.SerializedSizeReasonable (0 ms)
+[----------] 1 test from BloomFilterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BloomFilterTest.SerializedSizeReasonable" end time: Jul 15 19:12 UTC
+"BloomFilterTest.SerializedSizeReasonable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/66 Testing: BlockCacheTest.GetMissReturnsNullptr
+47/66 Test: BlockCacheTest.GetMissReturnsNullptr
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.GetMissReturnsNullptr" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.GetMissReturnsNullptr" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.GetMissReturnsNullptr
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.GetMissReturnsNullptr
+[       OK ] BlockCacheTest.GetMissReturnsNullptr (0 ms)
+[----------] 1 test from BlockCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.GetMissReturnsNullptr" end time: Jul 15 19:12 UTC
+"BlockCacheTest.GetMissReturnsNullptr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/66 Testing: BlockCacheTest.PutThenGetHits
+48/66 Test: BlockCacheTest.PutThenGetHits
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.PutThenGetHits" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.PutThenGetHits" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.PutThenGetHits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.PutThenGetHits
+[       OK ] BlockCacheTest.PutThenGetHits (0 ms)
+[----------] 1 test from BlockCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.PutThenGetHits" end time: Jul 15 19:12 UTC
+"BlockCacheTest.PutThenGetHits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/66 Testing: BlockCacheTest.DifferentOffsetsDifferentEntries
+49/66 Test: BlockCacheTest.DifferentOffsetsDifferentEntries
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.DifferentOffsetsDifferentEntries" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.DifferentOffsetsDifferentEntries" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.DifferentOffsetsDifferentEntries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.DifferentOffsetsDifferentEntries
+[       OK ] BlockCacheTest.DifferentOffsetsDifferentEntries (0 ms)
+[----------] 1 test from BlockCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.DifferentOffsetsDifferentEntries" end time: Jul 15 19:12 UTC
+"BlockCacheTest.DifferentOffsetsDifferentEntries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/66 Testing: BlockCacheTest.EvictsLRUWhenFull
+50/66 Test: BlockCacheTest.EvictsLRUWhenFull
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.EvictsLRUWhenFull" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.EvictsLRUWhenFull" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.EvictsLRUWhenFull
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.EvictsLRUWhenFull
+[       OK ] BlockCacheTest.EvictsLRUWhenFull (1 ms)
+[----------] 1 test from BlockCacheTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.EvictsLRUWhenFull" end time: Jul 15 19:12 UTC
+"BlockCacheTest.EvictsLRUWhenFull" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/66 Testing: BlockCacheTest.EvictByPath
+51/66 Test: BlockCacheTest.EvictByPath
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.EvictByPath" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.EvictByPath" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.EvictByPath
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.EvictByPath
+[       OK ] BlockCacheTest.EvictByPath (1 ms)
+[----------] 1 test from BlockCacheTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.EvictByPath" end time: Jul 15 19:12 UTC
+"BlockCacheTest.EvictByPath" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/66 Testing: BlockCacheTest.HitRateAccurate
+52/66 Test: BlockCacheTest.HitRateAccurate
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.HitRateAccurate" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.HitRateAccurate" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.HitRateAccurate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.HitRateAccurate
+[       OK ] BlockCacheTest.HitRateAccurate (1 ms)
+[----------] 1 test from BlockCacheTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.HitRateAccurate" end time: Jul 15 19:12 UTC
+"BlockCacheTest.HitRateAccurate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/66 Testing: BlockCacheTest.SizeBytesTracked
+53/66 Test: BlockCacheTest.SizeBytesTracked
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.SizeBytesTracked" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.SizeBytesTracked" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.SizeBytesTracked
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.SizeBytesTracked
+[       OK ] BlockCacheTest.SizeBytesTracked (1 ms)
+[----------] 1 test from BlockCacheTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.SizeBytesTracked" end time: Jul 15 19:12 UTC
+"BlockCacheTest.SizeBytesTracked" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/66 Testing: BlockCacheTest.OverwriteUpdatesSize
+54/66 Test: BlockCacheTest.OverwriteUpdatesSize
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=BlockCacheTest.OverwriteUpdatesSize" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"BlockCacheTest.OverwriteUpdatesSize" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BlockCacheTest.OverwriteUpdatesSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BlockCacheTest
+[ RUN      ] BlockCacheTest.OverwriteUpdatesSize
+[       OK ] BlockCacheTest.OverwriteUpdatesSize (0 ms)
+[----------] 1 test from BlockCacheTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BlockCacheTest.OverwriteUpdatesSize" end time: Jul 15 19:12 UTC
+"BlockCacheTest.OverwriteUpdatesSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/66 Testing: TombstoneTest.RemovedEventAbsentFromQuery
+55/66 Test: TombstoneTest.RemovedEventAbsentFromQuery
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=TombstoneTest.RemovedEventAbsentFromQuery" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"TombstoneTest.RemovedEventAbsentFromQuery" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TombstoneTest.RemovedEventAbsentFromQuery
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TombstoneTest
+[ RUN      ] TombstoneTest.RemovedEventAbsentFromQuery
+[       OK ] TombstoneTest.RemovedEventAbsentFromQuery (11 ms)
+[----------] 1 test from TombstoneTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"TombstoneTest.RemovedEventAbsentFromQuery" end time: Jul 15 19:12 UTC
+"TombstoneTest.RemovedEventAbsentFromQuery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/66 Testing: TombstoneTest.TombstoneDoesNotAppearInResults
+56/66 Test: TombstoneTest.TombstoneDoesNotAppearInResults
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=TombstoneTest.TombstoneDoesNotAppearInResults" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"TombstoneTest.TombstoneDoesNotAppearInResults" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TombstoneTest.TombstoneDoesNotAppearInResults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TombstoneTest
+[ RUN      ] TombstoneTest.TombstoneDoesNotAppearInResults
+[       OK ] TombstoneTest.TombstoneDoesNotAppearInResults (10 ms)
+[----------] 1 test from TombstoneTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TombstoneTest.TombstoneDoesNotAppearInResults" end time: Jul 15 19:12 UTC
+"TombstoneTest.TombstoneDoesNotAppearInResults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/66 Testing: TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter
+57/66 Test: TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TombstoneTest
+[ RUN      ] TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter
+[       OK ] TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter (11 ms)
+[----------] 1 test from TombstoneTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter" end time: Jul 15 19:12 UTC
+"TombstoneTest.TombstoneEventTypeNotReturnedEvenWithEventTypeFilter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/66 Testing: TombstoneTest.TombstoneGCDuringCompaction
+58/66 Test: TombstoneTest.TombstoneGCDuringCompaction
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=TombstoneTest.TombstoneGCDuringCompaction" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"TombstoneTest.TombstoneGCDuringCompaction" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TombstoneTest.TombstoneGCDuringCompaction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TombstoneTest
+[ RUN      ] TombstoneTest.TombstoneGCDuringCompaction
+[       OK ] TombstoneTest.TombstoneGCDuringCompaction (13 ms)
+[----------] 1 test from TombstoneTest (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (13 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TombstoneTest.TombstoneGCDuringCompaction" end time: Jul 15 19:12 UTC
+"TombstoneTest.TombstoneGCDuringCompaction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/66 Testing: TombstoneTest.RemoveNonExistentKeyHarmless
+59/66 Test: TombstoneTest.RemoveNonExistentKeyHarmless
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=TombstoneTest.RemoveNonExistentKeyHarmless" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"TombstoneTest.RemoveNonExistentKeyHarmless" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TombstoneTest.RemoveNonExistentKeyHarmless
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TombstoneTest
+[ RUN      ] TombstoneTest.RemoveNonExistentKeyHarmless
+[       OK ] TombstoneTest.RemoveNonExistentKeyHarmless (6 ms)
+[----------] 1 test from TombstoneTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TombstoneTest.RemoveNonExistentKeyHarmless" end time: Jul 15 19:12 UTC
+"TombstoneTest.RemoveNonExistentKeyHarmless" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/66 Testing: SymbolTableTest.InternAndLookup
+60/66 Test: SymbolTableTest.InternAndLookup
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.InternAndLookup" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.InternAndLookup" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.InternAndLookup
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.InternAndLookup
+[       OK ] SymbolTableTest.InternAndLookup (1 ms)
+[----------] 1 test from SymbolTableTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.InternAndLookup" end time: Jul 15 19:12 UTC
+"SymbolTableTest.InternAndLookup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/66 Testing: SymbolTableTest.InternIdempotent
+61/66 Test: SymbolTableTest.InternIdempotent
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.InternIdempotent" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.InternIdempotent" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.InternIdempotent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.InternIdempotent
+[       OK ] SymbolTableTest.InternIdempotent (1 ms)
+[----------] 1 test from SymbolTableTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.InternIdempotent" end time: Jul 15 19:12 UTC
+"SymbolTableTest.InternIdempotent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/66 Testing: SymbolTableTest.LookupUnknownReturnsNullopt
+62/66 Test: SymbolTableTest.LookupUnknownReturnsNullopt
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.LookupUnknownReturnsNullopt" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.LookupUnknownReturnsNullopt" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.LookupUnknownReturnsNullopt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.LookupUnknownReturnsNullopt
+[       OK ] SymbolTableTest.LookupUnknownReturnsNullopt (1 ms)
+[----------] 1 test from SymbolTableTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.LookupUnknownReturnsNullopt" end time: Jul 15 19:12 UTC
+"SymbolTableTest.LookupUnknownReturnsNullopt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/66 Testing: SymbolTableTest.PersistenceAcrossRestart
+63/66 Test: SymbolTableTest.PersistenceAcrossRestart
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.PersistenceAcrossRestart" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.PersistenceAcrossRestart" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.PersistenceAcrossRestart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.PersistenceAcrossRestart
+[       OK ] SymbolTableTest.PersistenceAcrossRestart (2 ms)
+[----------] 1 test from SymbolTableTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.PersistenceAcrossRestart" end time: Jul 15 19:12 UTC
+"SymbolTableTest.PersistenceAcrossRestart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/66 Testing: SymbolTableTest.NewSymbolsAfterReloadGetFreshIds
+64/66 Test: SymbolTableTest.NewSymbolsAfterReloadGetFreshIds
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.NewSymbolsAfterReloadGetFreshIds" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.NewSymbolsAfterReloadGetFreshIds" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.NewSymbolsAfterReloadGetFreshIds
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.NewSymbolsAfterReloadGetFreshIds
+[       OK ] SymbolTableTest.NewSymbolsAfterReloadGetFreshIds (1 ms)
+[----------] 1 test from SymbolTableTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.NewSymbolsAfterReloadGetFreshIds" end time: Jul 15 19:12 UTC
+"SymbolTableTest.NewSymbolsAfterReloadGetFreshIds" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/66 Testing: SymbolTableTest.LookupNameById
+65/66 Test: SymbolTableTest.LookupNameById
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.LookupNameById" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.LookupNameById" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.LookupNameById
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.LookupNameById
+[       OK ] SymbolTableTest.LookupNameById (2 ms)
+[----------] 1 test from SymbolTableTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.LookupNameById" end time: Jul 15 19:12 UTC
+"SymbolTableTest.LookupNameById" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/66 Testing: SymbolTableTest.ManySymbols
+66/66 Test: SymbolTableTest.ManySymbols
+Command: "/mnt/c/Users/manas/kronos-db/build/kronos_tests" "--gtest_filter=SymbolTableTest.ManySymbols" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/manas/kronos-db/build
+"SymbolTableTest.ManySymbols" start time: Jul 15 19:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SymbolTableTest.ManySymbols
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymbolTableTest
+[ RUN      ] SymbolTableTest.ManySymbols
+[       OK ] SymbolTableTest.ManySymbols (6 ms)
+[----------] 1 test from SymbolTableTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SymbolTableTest.ManySymbols" end time: Jul 15 19:12 UTC
+"SymbolTableTest.ManySymbols" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 15 19:12 UTC

@@ -1,0 +1,353 @@
+openapi: "3.1.0"
+info:
+  title: KronosDB API
+  version: "v1"
+  description: |
+    Local REST API for KronosDB — an LSM-style storage engine for market-data
+    time-series workloads. All endpoints bind to 127.0.0.1 by default.
+    CORS headers are set on every response so Kronos Workbench (browser) can connect.
+servers:
+  - url: "http://127.0.0.1:7420"
+    description: Local default
+
+paths:
+  /v1/status:
+    get:
+      operationId: getStatus
+      summary: Engine health and configuration
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/StatusResponse" }
+
+  /v1/metrics:
+    get:
+      operationId: getMetrics
+      summary: Live performance metrics — latency histograms, throughput, amplification
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MetricsResponse" }
+
+  /v1/storage/levels:
+    get:
+      operationId: getStorageLevels
+      summary: LSM level structure — memtable, L0..L3 file counts and sizes
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/StorageLevelsResponse" }
+
+  /v1/ingest/event:
+    post:
+      operationId: ingestEvent
+      summary: Append a single market-data event through WAL + MemTable
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/IngestEventRequest" }
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/IngestEventResponse" }
+        "400": { $ref: "#/components/responses/Error" }
+
+  /v1/ingest/synthetic/start:
+    post:
+      operationId: startSynthetic
+      summary: |
+        Start background synthetic market-data generation.
+        Events go through the real DB append path (WAL + MemTable).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/SyntheticStartRequest" }
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:     { type: boolean }
+                  job_id: { type: string }
+        "400": { $ref: "#/components/responses/Error" }
+
+  /v1/ingest/synthetic/stop:
+    post:
+      operationId: stopSynthetic
+      summary: Stop a running synthetic job; returns total events generated
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [job_id]
+              properties:
+                job_id: { type: string }
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:               { type: boolean }
+                  events_generated: { type: integer, format: uint64 }
+        "400": { $ref: "#/components/responses/Error" }
+
+  /v1/query:
+    post:
+      operationId: queryEvents
+      summary: |
+        Range-scan events by symbol and time range.
+        Returns matched rows plus detailed execution stats
+        (planning_us, index_lookup_us, block_read_us, files_skipped, ...).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/QueryRequest" }
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/QueryResponse" }
+        "400": { $ref: "#/components/responses/Error" }
+
+  /v1/benchmark/run:
+    post:
+      operationId: runBenchmark
+      summary: Run an inline ingest benchmark; returns throughput and p50/p99
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/BenchmarkRequest" }
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/BenchmarkResponse" }
+        "400": { $ref: "#/components/responses/Error" }
+
+  /v1/recovery/demo:
+    post:
+      operationId: recoveryDemo
+      summary: |
+        Demonstrate WAL crash recovery. Writes 100k events, truncates the
+        tail to simulate a crash, then recovers and reports stats.
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/RecoveryDemoResponse" }
+
+  /v1/live:
+    get:
+      operationId: liveMetrics
+      summary: |
+        Server-Sent Events stream. Emits a metrics snapshot every 500ms.
+        Connect with EventSource in the browser. Connection kept alive until
+        client disconnects.
+      responses:
+        "200":
+          content:
+            text/event-stream:
+              schema: { type: string }
+              example: "data: {\"type\":\"metrics\",\"events_per_sec\":1250000}\n\n"
+
+components:
+  responses:
+    Error:
+      description: Error
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        ok:    { type: boolean, example: false }
+        error:
+          type: object
+          properties:
+            code:    { type: string }
+            message: { type: string }
+
+    StatusResponse:
+      type: object
+      properties:
+        connected:        { type: boolean }
+        engine_name:      { type: string, example: "KronosDB" }
+        engine_version:   { type: string, example: "0.1.0" }
+        api_version:      { type: string, example: "v1" }
+        db_path:          { type: string }
+        io_backend:       { type: string, enum: [pread, mmap] }
+        wal_enabled:      { type: boolean }
+        compression_hot:  { type: string, enum: [none, lz4] }
+        compression_cold: { type: string, enum: [none, zstd] }
+        event_count:      { type: integer, format: uint64 }
+        disk_usage_bytes: { type: integer, format: uint64 }
+        uptime_seconds:   { type: number }
+
+    MetricsResponse:
+      type: object
+      properties:
+        events_ingested_total:  { type: integer, format: uint64 }
+        events_per_sec:         { type: number }
+        wal_mb_per_sec:         { type: number }
+        memtable_mb:            { type: number }
+        flush_count:            { type: integer, format: uint64 }
+        compaction_count:       { type: integer, format: uint64 }
+        compaction_debt_gb:     { type: number }
+        p50_append_us:          { type: number }
+        p90_append_us:          { type: number }
+        p99_append_us:          { type: number }
+        p999_append_us:         { type: number }
+        p50_query_ms:           { type: number }
+        p99_query_ms:           { type: number }
+        block_cache_hit_rate:   { type: number, minimum: 0, maximum: 1 }
+        write_amplification:    { type: number }
+        read_amplification:     { type: number }
+        space_amplification:    { type: number }
+
+    StorageLevelsResponse:
+      type: object
+      properties:
+        memtable:
+          type: object
+          properties:
+            active_mb:       { type: number }
+            immutable_count: { type: integer }
+        levels:
+          type: array
+          items:
+            type: object
+            properties:
+              level:            { type: integer, minimum: 0 }
+              file_count:       { type: integer }
+              size_bytes:       { type: integer, format: uint64 }
+              compaction_score: { type: number, description: "> 1.0 means compaction needed" }
+        columnar_cold_tier:
+          type: object
+          properties:
+            file_count: { type: integer }
+            size_bytes:  { type: integer, format: uint64 }
+
+    IngestEventRequest:
+      type: object
+      required: [symbol, timestamp_ns, event_type]
+      properties:
+        symbol:        { type: string, example: "AAPL" }
+        timestamp_ns:  { type: integer, format: uint64, description: "nanoseconds since epoch" }
+        event_type:
+          type: string
+          enum: [trade, quote, add, modify, cancel]
+        price_ticks:   { type: integer, format: int64, default: 0 }
+        bid_px_ticks:  { type: integer, format: int64, default: 0 }
+        ask_px_ticks:  { type: integer, format: int64, default: 0 }
+        quantity:      { type: integer, format: uint32, default: 0 }
+        bid_qty:       { type: integer, format: uint32, default: 0 }
+        ask_qty:       { type: integer, format: uint32, default: 0 }
+        order_id:      { type: integer, format: uint64, default: 0 }
+
+    IngestEventResponse:
+      type: object
+      properties:
+        ok:                { type: boolean }
+        sequence_id:       { type: integer, format: uint64 }
+        wal_offset:        { type: integer, format: uint64 }
+        append_latency_us: { type: number }
+
+    SyntheticStartRequest:
+      type: object
+      properties:
+        symbols:          { type: integer, default: 100 }
+        events_per_sec:   { type: number, default: 100000 }
+        duration_seconds: { type: integer, default: 30 }
+        event_mix:
+          type: object
+          properties:
+            trade:  { type: number, default: 0.20 }
+            quote:  { type: number, default: 0.70 }
+            add:    { type: number, default: 0.05 }
+            modify: { type: number, default: 0.03 }
+            cancel: { type: number, default: 0.02 }
+        volatility_regime:
+          type: string
+          enum: [normal, high_vol, flash_crash]
+          default: normal
+
+    QueryRequest:
+      type: object
+      required: [symbol]
+      properties:
+        symbol:      { type: string }
+        start_ns:    { type: integer, format: uint64, default: 0 }
+        end_ns:      { type: integer, format: uint64 }
+        event_type:
+          type: string
+          enum: [trade, quote, add, modify, cancel]
+          nullable: true
+        limit:       { type: integer, default: 1000 }
+
+    QueryResponse:
+      type: object
+      properties:
+        ok:      { type: boolean }
+        columns: { type: array, items: { type: string } }
+        rows:    { type: array, items: { type: object } }
+        stats:
+          type: object
+          properties:
+            total_latency_us:  { type: integer }
+            planning_us:       { type: integer }
+            index_lookup_us:   { type: integer }
+            block_read_us:     { type: integer }
+            decompression_us:  { type: integer }
+            filtering_us:      { type: integer }
+            serialization_us:  { type: integer }
+            files_considered:  { type: integer }
+            files_skipped:     { type: integer }
+            blocks_read:       { type: integer }
+            rows_scanned:      { type: integer }
+            rows_returned:     { type: integer }
+
+    BenchmarkRequest:
+      type: object
+      properties:
+        benchmark:  { type: string, enum: [ingest], default: ingest }
+        events:     { type: integer, format: uint64, default: 1000000 }
+        symbols:    { type: integer, default: 100 }
+        io_backend: { type: string, enum: [pread, mmap], default: pread }
+
+    BenchmarkResponse:
+      type: object
+      properties:
+        ok:                        { type: boolean }
+        benchmark:                 { type: string }
+        events:                    { type: integer }
+        throughput_events_per_sec: { type: number }
+        p50_us:                    { type: number }
+        p99_us:                    { type: number }
+        output_path:               { type: string }
+
+    RecoveryDemoResponse:
+      type: object
+      properties:
+        ok:                     { type: boolean }
+        records_before_crash:   { type: integer, format: uint64 }
+        records_recovered:      { type: integer, format: uint64 }
+        torn_record_detected:   { type: boolean }
+        corrupted_tail_bytes:   { type: integer, format: uint64 }
+        recovery_time_ms:       { type: number }
+        committed_records_lost: { type: integer, example: 0 }

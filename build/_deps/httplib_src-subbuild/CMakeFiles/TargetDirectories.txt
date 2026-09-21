@@ -1,0 +1,3 @@
+/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/CMakeFiles/httplib_src-populate.dir
+/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/CMakeFiles/rebuild_cache.dir

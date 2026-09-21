@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/CMakeFiles/httplib_src-populate"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/CMakeFiles/httplib_src-populate.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/CMakeFiles/httplib_src-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-subbuild/httplib_src-populate-prefix/src/httplib_src-populate-stamp/httplib_src-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"httplib_src-populate"
+		],
+		"name" : "httplib_src-populate"
+	}
+}

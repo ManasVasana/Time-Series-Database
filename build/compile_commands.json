@@ -1,0 +1,356 @@
+[
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/core/event.cpp.o -c /mnt/c/Users/manas/kronos-db/src/core/event.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/core/event.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/core/event.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/util/symbol_table.cpp.o -c /mnt/c/Users/manas/kronos-db/src/util/symbol_table.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/util/symbol_table.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/util/symbol_table.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/table/block.cpp.o -c /mnt/c/Users/manas/kronos-db/src/table/block.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/table/block.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/table/block.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/table/index.cpp.o -c /mnt/c/Users/manas/kronos-db/src/table/index.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/table/index.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/table/index.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/table/bloom_filter.cpp.o -c /mnt/c/Users/manas/kronos-db/src/table/bloom_filter.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/table/bloom_filter.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/table/bloom_filter.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/storage/wal.cpp.o -c /mnt/c/Users/manas/kronos-db/src/storage/wal.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/storage/wal.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/storage/wal.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/storage/memtable.cpp.o -c /mnt/c/Users/manas/kronos-db/src/storage/memtable.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/storage/memtable.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/storage/memtable.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/table/sstable.cpp.o -c /mnt/c/Users/manas/kronos-db/src/table/sstable.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/table/sstable.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/table/sstable.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/db/compaction.cpp.o -c /mnt/c/Users/manas/kronos-db/src/db/compaction.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/db/compaction.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/db/compaction.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/util/metrics.cpp.o -c /mnt/c/Users/manas/kronos-db/src/util/metrics.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/util/metrics.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/util/metrics.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/db/query.cpp.o -c /mnt/c/Users/manas/kronos-db/src/db/query.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/db/query.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/db/query.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/db/recovery.cpp.o -c /mnt/c/Users/manas/kronos-db/src/db/recovery.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/db/recovery.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/db/recovery.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/net/synthetic.cpp.o -c /mnt/c/Users/manas/kronos-db/src/net/synthetic.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/net/synthetic.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/net/synthetic.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/db/db.cpp.o -c /mnt/c/Users/manas/kronos-db/src/db/db.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/db/db.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/db/db.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/net/server.cpp.o -c /mnt/c/Users/manas/kronos-db/src/net/server.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/net/server.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/net/server.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb_core.dir/src/util/block_cache.cpp.o -c /mnt/c/Users/manas/kronos-db/src/util/block_cache.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/util/block_cache.cpp",
+  "output": "CMakeFiles/kronosdb_core.dir/src/util/block_cache.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb-server.dir/src/main_server.cpp.o -c /mnt/c/Users/manas/kronos-db/src/main_server.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/src/main_server.cpp",
+  "output": "CMakeFiles/kronosdb-server.dir/src/main_server.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronosdb-cli.dir/tools/kronosdb_cli.cpp.o -c /mnt/c/Users/manas/kronos-db/tools/kronosdb_cli.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/tools/kronosdb_cli.cpp",
+  "output": "CMakeFiles/kronosdb-cli.dir/tools/kronosdb_cli.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/generate_synthetic.dir/tools/generate_synthetic.cpp.o -c /mnt/c/Users/manas/kronos-db/tools/generate_synthetic.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/tools/generate_synthetic.cpp",
+  "output": "CMakeFiles/generate_synthetic.dir/tools/generate_synthetic.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/event_encoding_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/event_encoding_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/event_encoding_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/event_encoding_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/wal_recovery_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/wal_recovery_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/wal_recovery_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/wal_recovery_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/wal_corruption_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/wal_corruption_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/wal_corruption_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/wal_corruption_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/sstable_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/sstable_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/sstable_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/sstable_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/scan_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/scan_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/scan_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/scan_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/compaction_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/compaction_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/compaction_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/compaction_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/synthetic_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/synthetic_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/synthetic_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/synthetic_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/query_stats_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/query_stats_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/query_stats_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/query_stats_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/bloom_filter_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/bloom_filter_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/bloom_filter_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/bloom_filter_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/block_cache_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/block_cache_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/block_cache_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/block_cache_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/tombstone_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/tombstone_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/tombstone_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/tombstone_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/kronos_tests.dir/test/symbol_table_test.cpp.o -c /mnt/c/Users/manas/kronos-db/test/symbol_table_test.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/test/symbol_table_test.cpp",
+  "output": "CMakeFiles/kronos_tests.dir/test/symbol_table_test.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/bench_ingest.dir/bench/bench_ingest.cpp.o -c /mnt/c/Users/manas/kronos-db/bench/bench_ingest.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/bench/bench_ingest.cpp",
+  "output": "CMakeFiles/bench_ingest.dir/bench/bench_ingest.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/bench_scan.dir/bench/bench_scan.cpp.o -c /mnt/c/Users/manas/kronos-db/bench/bench_scan.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/bench/bench_scan.cpp",
+  "output": "CMakeFiles/bench_scan.dir/bench/bench_scan.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/bench_recovery.dir/bench/bench_recovery.cpp.o -c /mnt/c/Users/manas/kronos-db/bench/bench_recovery.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/bench/bench_recovery.cpp",
+  "output": "CMakeFiles/bench_recovery.dir/bench/bench_recovery.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -I/mnt/c/Users/manas/kronos-db/include -I/mnt/c/Users/manas/kronos-db/build/_deps/nlohmann_json-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/httplib_src-src -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O3 -march=native -o CMakeFiles/bench_io_backend.dir/bench/bench_io_backend.cpp.o -c /mnt/c/Users/manas/kronos-db/bench/bench_io_backend.cpp",
+  "file": "/mnt/c/Users/manas/kronos-db/bench/bench_io_backend.cpp",
+  "output": "CMakeFiles/bench_io_backend.dir/bench/bench_io_backend.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock/include -I/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -I/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -I/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DBENCHMARK_VERSION=\\\"v1.8.5\\\" -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_api_internal.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_api_internal.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_name.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_name.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_register.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_register.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_runner.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_runner.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/check.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/check.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/colorprint.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/colorprint.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/commandlineflags.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/commandlineflags.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/complexity.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/complexity.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/console_reporter.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/console_reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/counter.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/counter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/csv_reporter.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/csv_reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/json_reporter.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/json_reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/perf_counters.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/perf_counters.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/reporter.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/reporter.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/statistics.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/statistics.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/string_util.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/string_util.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/sysinfo.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/sysinfo.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/timers.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/timers.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o"
+},
+{
+  "directory": "/mnt/c/Users/manas/kronos-db/build",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/include -I/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wpedantic -O3 -march=native -o _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o -c /mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_main.cc",
+  "file": "/mnt/c/Users/manas/kronos-db/build/_deps/benchmark-src/src/benchmark_main.cc",
+  "output": "_deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o"
+}
+]

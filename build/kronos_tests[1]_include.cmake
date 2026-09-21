@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/manas/kronos-db/build/kronos_tests[1]_tests.cmake")
+  include("/mnt/c/Users/manas/kronos-db/build/kronos_tests[1]_tests.cmake")
+else()
+  add_test(kronos_tests_NOT_BUILT kronos_tests_NOT_BUILT)
+endif()
